@@ -23,7 +23,8 @@ on branch `fix-state-res-v2.1`: the fallback adds the auth event, the resolver h
 event from the start, the print goes; tests resolve a room version 12 room's conflicted state. The
 module path stays `github.com/matrix-org/gomatrixserverlib`.
 
-**The upstream report.** Not filed yet; its text stands in [`UPSTREAM.md`](UPSTREAM.md).
+**The upstream report.** Issue [matrix-org/gomatrixserverlib#471](https://github.com/matrix-org/gomatrixserverlib/issues/471),
+pull request [#472](https://github.com/matrix-org/gomatrixserverlib/pull/472) (branch `fix-state-res-v2.1`).
 
 **Removal.** Drop this fork and the `replace` once upstream carries an equivalent fix.
 
